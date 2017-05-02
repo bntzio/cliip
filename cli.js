@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 'use strict';
+
 const yargs = require('yargs');
+const ora = require('ora');
 
 const logger = require('./logger');
+
+const spinner = ora('Getting ip info...').start();
 
 const argv = yargs
   .command('ip', 'Get your current ip')
@@ -24,6 +28,8 @@ function startCli(args) {
   } else {
     logger();
   }
+
+  spinner.succeed(['Done!']);
 }
 
 startCli(argv._);

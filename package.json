@@ -30,6 +30,7 @@
   "homepage": "https://github.com/bntzio/ip#readme",
   "dependencies": {
     "axios": "^0.16.1",
+    "ora": "^1.2.0",
     "yargs": "^7.1.0"
   }
 }
