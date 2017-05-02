@@ -1,0 +1,35 @@
+{
+  "name": "ip",
+  "version": "0.1.0",
+  "description": "Get your ip info with a single cli command",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ip": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bntzio/ip.git"
+  },
+  "keywords": [
+    "ip",
+    "ipinfo",
+    "cli",
+    "cli-app"
+  ],
+  "author": {
+    "name": "Enrique Benitez",
+    "email": "hello@bntz.io",
+    "url": "bntz.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bntzio/ip/issues"
+  },
+  "homepage": "https://github.com/bntzio/ip#readme",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "yargs": "^7.1.0"
+  }
+}
