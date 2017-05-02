@@ -1,5 +1,5 @@
 {
-  "name": "ip",
+  "name": "cliip",
   "version": "1.0.0",
   "description": "Get your ip info with a single cli command",
   "engines": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bntzio/ip.git"
+    "url": "git+https://github.com/bntzio/cliip.git"
   },
   "keywords": [
     "ip",
@@ -28,9 +28,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bntzio/ip/issues"
+    "url": "https://github.com/bntzio/cliip/issues"
   },
-  "homepage": "https://github.com/bntzio/ip#readme",
+  "homepage": "https://github.com/bntzio/cliip#readme",
   "dependencies": {
     "axios": "^0.16.1",
     "ora": "^1.2.0",
