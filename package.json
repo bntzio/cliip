@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Get your ip info with a single cli command",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --verbose --color"
   },
   "bin": {
     "ip": "cli.js"
@@ -32,5 +32,8 @@
     "axios": "^0.16.1",
     "ora": "^1.2.0",
     "yargs": "^7.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1"
   }
 }
