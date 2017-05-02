@@ -2,9 +2,9 @@
 
 <p align="center">Get your ip info with a single cli command 💻</p>
 
-<img src="https://travis-ci.org/bntzio/cliip.svg?branch=master" />
-<img src="https://img.shields.io/npm/v/cliip.svg" />
-<img src="https://img.shields.io/npm/l/cliip.svg" />
+[![Build Status](https://travis-ci.org/bntzio/cliip.svg?branch=master)](https://travis-ci.org/bntzio/cliip)
+[![npm](https://img.shields.io/npm/v/cliip.svg)](https://www.npmjs.com/package/cliip)
+[![npm](https://img.shields.io/npm/l/cliip.svg)](https://github.com/bntzio/cliip/blob/master/license)
 
 ## What is cliip?
 Cliip (shorthand for cli-ip) is the fastest way to know your public ip address directly from the command line interface.
