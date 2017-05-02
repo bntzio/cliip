@@ -10,7 +10,7 @@ module.exports = {
           return res.data[arg];
         })
         .catch(function(err) {
-          console.log(err);
+          return err;
         });
     } else {
       return axios.get(url)
@@ -18,7 +18,7 @@ module.exports = {
           return res.data;
         })
         .catch(function(err) {
-          console.log(err);
+          return err;
         });
     }
   }
