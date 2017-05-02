@@ -2,6 +2,9 @@
   "name": "ip",
   "version": "0.1.0",
   "description": "Get your ip info with a single cli command",
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "test": "ava --verbose --color"
   },
