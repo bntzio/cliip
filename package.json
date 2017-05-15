@@ -1,6 +1,6 @@
 {
   "name": "cliip",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get your ip info with a single cli command",
   "engines": {
     "node": ">=6"
@@ -9,7 +9,7 @@
     "test": "ava --verbose --color"
   },
   "bin": {
-    "ip": "cli.js"
+    "cliip": "cli.js"
   },
   "repository": {
     "type": "git",

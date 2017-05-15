@@ -18,7 +18,7 @@ Cliip uses the [ipinfo](http://ipinfo.io/) api to get the ip information.
 `npm install --global cliip`
 
 ## Usage
-Just type `ip` in your terminal and voila! 🎊
+Just type `cliip` in your terminal and voila! 🎊
 
 ## Demo
 ![](cliip.gif)
@@ -26,15 +26,15 @@ Just type `ip` in your terminal and voila! 🎊
 ## Commands
 Some commands include:
 
-* `ip country` - get current ip country
-* `ip city` - get current ip city
-* `ip hostname` - get current ip hostname
+* `cliip country` - get current ip country
+* `cliip city` - get current ip city
+* `cliip hostname` - get current ip hostname
 
 You can also chain arguments! 😄
 
-`ip country city hostname`
+`cliip country city hostname`
 
-Type `ip --help` to see all the available commands.
+Type `cliip --help` to see all the available commands.
 
 ## License
 MIT © [Enrique Benitez](https://bntz.io)
